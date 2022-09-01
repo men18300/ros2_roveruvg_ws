@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
         'hardware_arduino_odometry = odometry_pkg.hardware_arduino_wheels:main',
+        'dwm1001_odometry = odometry_pkg.node_dwm1001:main',
+        'optitrack_odometry = odometry_pkg.optitrack_client:main',
         ],
     },
 )
