@@ -1,0 +1,5 @@
+[console_scripts]
+dwm1001_odometry = odometry_pkg.node_dwm1001:main
+hardware_arduino_odometry = odometry_pkg.hardware_arduino_wheels:main
+optitrack_odometry = odometry_pkg.optitrack_client:main
+
