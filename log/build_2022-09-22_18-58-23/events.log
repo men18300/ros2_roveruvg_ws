@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.006841] (controllers) JobQueued: {'identifier': 'controllers', 'dependencies': OrderedDict()}
+[0.007160] (odometry_pkg) JobQueued: {'identifier': 'odometry_pkg', 'dependencies': OrderedDict()}
+[0.007236] (controllers) JobStarted: {'identifier': 'controllers'}
+[0.071811] (odometry_pkg) JobStarted: {'identifier': 'odometry_pkg'}
+[0.106925] (-) TimerEvent: {}
+[0.208619] (-) TimerEvent: {}
+[0.311037] (-) TimerEvent: {}
+[0.411597] (-) TimerEvent: {}
+[0.512488] (-) TimerEvent: {}
+[0.614096] (-) TimerEvent: {}
+[0.715629] (-) TimerEvent: {}
+[0.818803] (-) TimerEvent: {}
+[0.919861] (-) TimerEvent: {}
+[1.021563] (-) TimerEvent: {}
+[1.123030] (-) TimerEvent: {}
+[1.229541] (-) TimerEvent: {}
+[1.337083] (-) TimerEvent: {}
+[1.437745] (-) TimerEvent: {}
+[1.539362] (-) TimerEvent: {}
+[1.639969] (-) TimerEvent: {}
+[1.740613] (-) TimerEvent: {}
+[1.843188] (-) TimerEvent: {}
+[1.943837] (-) TimerEvent: {}
+[2.044549] (-) TimerEvent: {}
+[2.145121] (-) TimerEvent: {}
+[2.246847] (-) TimerEvent: {}
+[2.348395] (-) TimerEvent: {}
+[2.449123] (-) TimerEvent: {}
+[2.550708] (-) TimerEvent: {}
+[2.651286] (-) TimerEvent: {}
+[2.751953] (-) TimerEvent: {}
+[2.852607] (-) TimerEvent: {}
+[2.953303] (-) TimerEvent: {}
+[3.054998] (-) TimerEvent: {}
+[3.063746] (controllers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/controllers', 'build', '--build-base', '/home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/build', 'install', '--prefix', '/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers', '--record', '/home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/install.log', '--single-version-externally-managed'], 'cwd': '/home/diego/Workspaces/ros2_roveruvg_ws/src/controllers', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'diego', 'SSH_AGENT_PID': '2298', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2090', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ef7b2e58cff979fea6fbb0563460c1d', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/diego/dev_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/diego/Workspaces/ros2_roveruvg_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'diego', 'JOURNAL_STREAM': '8:41504', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/:/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/diego-VirtualBox:@/tmp/.ICE-unix/2352,unix/diego-VirtualBox:/tmp/.ICE-unix/2352', 'INVOCATION_ID': 'c87c7ae2f4994ee4ad1c5e74ff6f29a5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/487d1cca_7d68_4d8c_bf71_18e116722365', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg:/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/Workspaces/ros2_roveruvg_ws/build/controllers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ef7b2e58cff979fea6fbb0563460c1d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages:/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages:/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.155610] (-) TimerEvent: {}
+[3.181990] (odometry_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/odometry_pkg', 'build', '--build-base', '/home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/build', 'install', '--prefix', '/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg', '--record', '/home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/diego/Workspaces/ros2_roveruvg_ws/src/odometry_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'diego', 'SSH_AGENT_PID': '2298', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2090', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ef7b2e58cff979fea6fbb0563460c1d', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/diego/dev_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/diego/Workspaces/ros2_roveruvg_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'diego', 'JOURNAL_STREAM': '8:41504', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/:/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/diego-VirtualBox:@/tmp/.ICE-unix/2352,unix/diego-VirtualBox:/tmp/.ICE-unix/2352', 'INVOCATION_ID': 'c87c7ae2f4994ee4ad1c5e74ff6f29a5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/487d1cca_7d68_4d8c_bf71_18e116722365', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg:/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ef7b2e58cff979fea6fbb0563460c1d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages:/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages:/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.256285] (-) TimerEvent: {}
+[3.357820] (-) TimerEvent: {}
+[3.458439] (-) TimerEvent: {}
+[3.559197] (-) TimerEvent: {}
+[3.659679] (-) TimerEvent: {}
+[3.760425] (-) TimerEvent: {}
+[3.863053] (-) TimerEvent: {}
+[3.963685] (-) TimerEvent: {}
+[3.972904] (odometry_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.977013] (odometry_pkg) StdoutLine: {'line': b'writing ../../build/odometry_pkg/odometry_pkg.egg-info/PKG-INFO\n'}
+[3.977577] (odometry_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/odometry_pkg/odometry_pkg.egg-info/dependency_links.txt\n'}
+[3.979053] (odometry_pkg) StdoutLine: {'line': b'writing entry points to ../../build/odometry_pkg/odometry_pkg.egg-info/entry_points.txt\n'}
+[3.980793] (odometry_pkg) StdoutLine: {'line': b'writing requirements to ../../build/odometry_pkg/odometry_pkg.egg-info/requires.txt\n'}
+[3.982436] (odometry_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/odometry_pkg/odometry_pkg.egg-info/top_level.txt\n'}
+[3.985738] (controllers) StdoutLine: {'line': b'running egg_info\n'}
+[3.987627] (controllers) StdoutLine: {'line': b'writing ../../build/controllers/controllers.egg-info/PKG-INFO\n'}
+[3.988612] (controllers) StdoutLine: {'line': b'writing dependency_links to ../../build/controllers/controllers.egg-info/dependency_links.txt\n'}
+[3.990052] (controllers) StdoutLine: {'line': b'writing entry points to ../../build/controllers/controllers.egg-info/entry_points.txt\n'}
+[3.991020] (controllers) StdoutLine: {'line': b'writing requirements to ../../build/controllers/controllers.egg-info/requires.txt\n'}
+[3.991666] (controllers) StdoutLine: {'line': b'writing top-level names to ../../build/controllers/controllers.egg-info/top_level.txt\n'}
+[4.064250] (-) TimerEvent: {}
+[4.111568] (odometry_pkg) StdoutLine: {'line': b"reading manifest file '../../build/odometry_pkg/odometry_pkg.egg-info/SOURCES.txt'\n"}
+[4.114323] (odometry_pkg) StdoutLine: {'line': b"writing manifest file '../../build/odometry_pkg/odometry_pkg.egg-info/SOURCES.txt'\n"}
+[4.115574] (odometry_pkg) StdoutLine: {'line': b'running build\n'}
+[4.115967] (odometry_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.117963] (odometry_pkg) StdoutLine: {'line': b'running install\n'}
+[4.120830] (odometry_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.125813] (odometry_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.127892] (odometry_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.133678] (odometry_pkg) StdoutLine: {'line': b"removing '/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages/odometry_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.135364] (odometry_pkg) StdoutLine: {'line': b'Copying ../../build/odometry_pkg/odometry_pkg.egg-info to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages/odometry_pkg-0.0.0-py3.8.egg-info\n'}
+[4.138155] (odometry_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.140646] (controllers) StdoutLine: {'line': b"reading manifest file '../../build/controllers/controllers.egg-info/SOURCES.txt'\n"}
+[4.142396] (controllers) StdoutLine: {'line': b"writing manifest file '../../build/controllers/controllers.egg-info/SOURCES.txt'\n"}
+[4.143203] (controllers) StdoutLine: {'line': b'running build\n'}
+[4.143523] (controllers) StdoutLine: {'line': b'running build_py\n'}
+[4.144194] (controllers) StdoutLine: {'line': b'running install\n'}
+[4.146379] (controllers) StdoutLine: {'line': b'running install_lib\n'}
+[4.149705] (controllers) StdoutLine: {'line': b'running install_data\n'}
+[4.151149] (controllers) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.155583] (controllers) StdoutLine: {'line': b"removing '/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages/controllers-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.156436] (controllers) StdoutLine: {'line': b'Copying ../../build/controllers/controllers.egg-info to /home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages/controllers-0.0.0-py3.8.egg-info\n'}
+[4.158522] (controllers) StdoutLine: {'line': b'running install_scripts\n'}
+[4.164952] (-) TimerEvent: {}
+[4.194476] (odometry_pkg) StdoutLine: {'line': b'Installing dwm1001_odometry script to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/odometry_pkg\n'}
+[4.195629] (odometry_pkg) StdoutLine: {'line': b'Installing hardware_arduino_odometry script to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/odometry_pkg\n'}
+[4.196842] (odometry_pkg) StdoutLine: {'line': b'Installing optitrack_odometry script to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/odometry_pkg\n'}
+[4.198886] (odometry_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/install.log'\n"}
+[4.214273] (controllers) StdoutLine: {'line': b'Installing simple_controller script to /home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/controllers\n'}
+[4.215502] (controllers) StdoutLine: {'line': b"writing list of installed files to '/home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/install.log'\n"}
+[4.265639] (-) TimerEvent: {}
+[4.278625] (odometry_pkg) CommandEnded: {'returncode': 0}
+[4.344433] (odometry_pkg) JobEnded: {'identifier': 'odometry_pkg', 'rc': 0}
+[4.354984] (controllers) CommandEnded: {'returncode': 0}
+[4.366110] (-) TimerEvent: {}
+[4.414898] (controllers) JobEnded: {'identifier': 'controllers', 'rc': 0}
+[4.418151] (-) EventReactorShutdown: {}

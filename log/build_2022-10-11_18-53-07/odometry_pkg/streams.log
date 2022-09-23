@@ -1,0 +1,26 @@
+[6.599s] Invoking command in '/home/diego/Workspaces/ros2_roveruvg_ws/src/odometry_pkg': PYTHONPATH=/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/odometry_pkg build --build-base /home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/build install --prefix /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg --record /home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/install.log --single-version-externally-managed
+[9.909s] running egg_info
+[9.910s] writing ../../build/odometry_pkg/odometry_pkg.egg-info/PKG-INFO
+[9.910s] writing dependency_links to ../../build/odometry_pkg/odometry_pkg.egg-info/dependency_links.txt
+[9.910s] writing entry points to ../../build/odometry_pkg/odometry_pkg.egg-info/entry_points.txt
+[9.911s] writing requirements to ../../build/odometry_pkg/odometry_pkg.egg-info/requires.txt
+[9.933s] writing top-level names to ../../build/odometry_pkg/odometry_pkg.egg-info/top_level.txt
+[10.477s] reading manifest file '../../build/odometry_pkg/odometry_pkg.egg-info/SOURCES.txt'
+[10.484s] writing manifest file '../../build/odometry_pkg/odometry_pkg.egg-info/SOURCES.txt'
+[10.484s] running build
+[10.485s] running build_py
+[10.490s] copying odometry_pkg/hardware_arduino_wheels.py -> /home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/build/lib/odometry_pkg
+[10.492s] running install
+[10.501s] running install_lib
+[10.513s] copying /home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/build/lib/odometry_pkg/hardware_arduino_wheels.py -> /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages/odometry_pkg
+[10.516s] byte-compiling /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages/odometry_pkg/hardware_arduino_wheels.py to hardware_arduino_wheels.cpython-38.pyc
+[10.528s] running install_data
+[10.530s] running install_egg_info
+[10.542s] removing '/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages/odometry_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[10.544s] Copying ../../build/odometry_pkg/odometry_pkg.egg-info to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages/odometry_pkg-0.0.0-py3.8.egg-info
+[10.556s] running install_scripts
+[10.678s] Installing dwm1001_odometry script to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/odometry_pkg
+[10.678s] Installing hardware_arduino_odometry script to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/odometry_pkg
+[10.679s] Installing optitrack_odometry script to /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/odometry_pkg
+[10.701s] writing list of installed files to '/home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/install.log'
+[11.002s] Invoked command in '/home/diego/Workspaces/ros2_roveruvg_ws/src/odometry_pkg' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/odometry_pkg build --build-base /home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/build install --prefix /home/diego/Workspaces/ros2_roveruvg_ws/install/odometry_pkg --record /home/diego/Workspaces/ros2_roveruvg_ws/build/odometry_pkg/install.log --single-version-externally-managed

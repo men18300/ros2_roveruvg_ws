@@ -102,14 +102,20 @@ class ArduinoCommunication(Node):
         lineal=msg.linear.x
         angular=msg.angular.z
         
+        ##################################
+        ###COMENTAR PARA PRUEBAS CON PROTO
+        #LLanta izquierda
+        lineal=(lineal-(angular*l))/r
+        #LLanta derecha
+        angular=(lineal+(angular*l))/r
+        ##################################
+        
         if lineal != lineal_prev or angular != angular_prev:
-           #print(lineal)
-           #print(lineal_prev)
+           print(lineal)
+           print(lineal_prev)
            
-           ###COMENTAR PARA PRUEBAS CON PROTO
-           #lineal=(lineal-(angular*l))/r;
-           #angular=(lineal+(angular*l))/r;
-           ##################################
+           #print(lineal)
+           #print(angular)    
            
            data = {}
            data["LW"] =lineal
