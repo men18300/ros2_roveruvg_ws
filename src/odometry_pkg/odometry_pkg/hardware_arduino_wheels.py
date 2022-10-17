@@ -118,8 +118,8 @@ class ArduinoCommunication(Node):
            print(angular)    
            
            data = {}
-           data["LW"] =lineal
-           data["RW"] =angular
+           data["LW"] =lineal*20
+           data["RW"] =angular*20
            data=json.dumps(data)
            ser.write(data.encode('ascii'))
            lineal_prev=lineal
