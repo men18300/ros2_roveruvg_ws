@@ -102,13 +102,7 @@ class ArduinoCommunication(Node):
         lineal=msg.linear.x
         angular=msg.angular.z
         
-        ##################################
-        ###COMENTAR PARA PRUEBAS CON PROTO
-        #LLanta izquierda
-        #lineal=(lineal-(angular*l))/r
-        #LLanta derecha
-        #angular=(lineal+(angular*l))/r
-        ##################################
+
         
         if lineal != lineal_prev or angular != angular_prev:
            #print(lineal)
@@ -117,9 +111,17 @@ class ArduinoCommunication(Node):
            print(lineal)
            print(angular)    
            
+           ##################################
+           ###COMENTAR PARA PRUEBAS CON PROTO
+           #LLanta izquierda
+           left_wheel_vel=(lineal-(angular*l))/r
+           #LLanta derecha
+           right_wheel_vel=(lineal+(angular*l))/r
+           ##################################
+           
            data = {}
-           data["LW"] =255.0
-           data["RW"] =150.0
+           data["LW"] =left_wheel_vel*255.0
+           data["RW"] =right_wheel_vel*255.0
            data=json.dumps(data)
            ser.write(data.encode('ascii'))
            lineal_prev=lineal
