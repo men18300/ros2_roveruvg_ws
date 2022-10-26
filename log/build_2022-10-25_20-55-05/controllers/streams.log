@@ -1,0 +1,21 @@
+[2.482s] Invoking command in '/home/diego/Workspaces/ros2_roveruvg_ws/src/controllers': PYTHONPATH=/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controllers build --build-base /home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/build install --prefix /home/diego/Workspaces/ros2_roveruvg_ws/install/controllers --record /home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/install.log --single-version-externally-managed
+[3.122s] running egg_info
+[3.124s] writing ../../build/controllers/controllers.egg-info/PKG-INFO
+[3.125s] writing dependency_links to ../../build/controllers/controllers.egg-info/dependency_links.txt
+[3.126s] writing entry points to ../../build/controllers/controllers.egg-info/entry_points.txt
+[3.127s] writing requirements to ../../build/controllers/controllers.egg-info/requires.txt
+[3.128s] writing top-level names to ../../build/controllers/controllers.egg-info/top_level.txt
+[3.232s] reading manifest file '../../build/controllers/controllers.egg-info/SOURCES.txt'
+[3.237s] writing manifest file '../../build/controllers/controllers.egg-info/SOURCES.txt'
+[3.238s] running build
+[3.238s] running build_py
+[3.240s] running install
+[3.242s] running install_lib
+[3.246s] running install_data
+[3.248s] running install_egg_info
+[3.252s] removing '/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages/controllers-0.0.0-py3.8.egg-info' (and everything under it)
+[3.254s] Copying ../../build/controllers/controllers.egg-info to /home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages/controllers-0.0.0-py3.8.egg-info
+[3.256s] running install_scripts
+[3.309s] Installing simple_controller script to /home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/controllers
+[3.311s] writing list of installed files to '/home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/install.log'
+[3.412s] Invoked command in '/home/diego/Workspaces/ros2_roveruvg_ws/src/controllers' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_roveruvg_ws/install/controllers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controllers build --build-base /home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/build install --prefix /home/diego/Workspaces/ros2_roveruvg_ws/install/controllers --record /home/diego/Workspaces/ros2_roveruvg_ws/build/controllers/install.log --single-version-externally-managed

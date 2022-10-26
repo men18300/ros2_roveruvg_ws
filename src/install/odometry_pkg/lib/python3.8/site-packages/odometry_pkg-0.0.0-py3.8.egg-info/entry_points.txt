@@ -1,3 +1,0 @@
-[console_scripts]
-hardware_arduino_odometry = odometry_pkg.hardware_arduino_wheels:main
-

@@ -105,9 +105,9 @@ class ArduinoCommunication(Node):
         ##################################
         ###COMENTAR PARA PRUEBAS CON PROTO
         #LLanta izquierda
-        lineal=(lineal-(angular*l))/r
+        #lineal=(lineal-(angular*l))/r
         #LLanta derecha
-        angular=(lineal+(angular*l))/r
+        #angular=(lineal+(angular*l))/r
         ##################################
         
         if lineal != lineal_prev or angular != angular_prev:
@@ -118,8 +118,8 @@ class ArduinoCommunication(Node):
            print(angular)    
            
            data = {}
-           data["LW"] =lineal*20
-           data["RW"] =angular*20
+           data["LW"] =255.0
+           data["RW"] =150.0
            data=json.dumps(data)
            ser.write(data.encode('ascii'))
            lineal_prev=lineal
